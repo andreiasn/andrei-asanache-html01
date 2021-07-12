@@ -17,6 +17,28 @@
 
 <body>
   <form>
+    <label for="name">Nume*</label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      placeholder="Nume"
+      minlength="5"
+      maxlength="30"
+      required
+    > <br> <br>
+
+    <label for="surname">Prenume*</label>
+    <input
+      type="text"
+      name="surname"
+      id="surname"
+      placeholder="Prenume"
+      minlength="5"
+      maxlength="30"
+      required
+    > <br> <br>
+
     <label for="message">Mesaj*</label>
     <textarea
       name="message"
@@ -25,7 +47,21 @@
       rows="4"
       placeholder="Mesaj"
       required
-    ></textarea>
+    >Lorem ipsum dolor sit amet</textarea> <br> <br>
+
+    <label for="details">Details</label>
+    <textarea
+      name="details"
+      id="details"
+      placeholder="Detalii"
+      cols="30"
+      rows="8"
+    ></textarea> <br> <br>
+
+    <button
+      type="submit"
+      name="submit"
+    >Trimite</button>
   </form>
   <div
     class="pixeltab-host"
