@@ -214,11 +214,203 @@
   font-display: swap;
 }
 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-.header .header-top .header-contact a:last-child {
+.container {
+  position: relative;
+  top: -3px;
+  left: 0px;
+  width: 100%;
+  max-width: 1920px;
+  height: 415px;
+  background: transparent url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.header-top {
+  position: relative;
+  top: 30px;
+  left: 230px;
+  width: 1077px;
+  height: 41px;
+}
+
+.header-top .header-contact {
+  float: left;
+}
+
+.header-top .header-contact a {
+  font-family: 'Playfair';
+  font-weight: normal;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.24px;
+  margin-right: 16px;
+}
+
+.header-top .header-controls {
+  float: right;
+  font-weight: 300;
+  margin-right: 400px;
+}
+
+.header-bottom {
+  position: relative;
+  background: #2b2b2b 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 50px;
+  top: 350px;
+}
+
+.navbar ul {
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.navbar ul li a {
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e8e8e8;
+}
+
+.header-top .header-contact a:last-child {
   font-family: 'Playfair Display', sans-serif;
   font-size: 16px;
 }
